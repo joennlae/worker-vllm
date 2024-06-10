@@ -18,16 +18,15 @@ Deploy OpenAI-Compatible Blazing-Fast LLM Endpoints powered by the [vLLM](https:
 ### 1. UI for Deploying vLLM Worker on RunPod console:
 ![Demo of Deploying vLLM Worker on RunPod console with new UI](media/ui_demo.gif)
 
-### 2. Worker vLLM `1.0.0preview` with vLLM `0.4.2` now available under `stable` tags
-Update 1.0.0preview is now available, use the image tag `runpod/worker-vllm:dev-cuda12.1.0` or `runpod/worker-vllm:dev-cuda11.8.0`.
+### 2. Worker vLLM `1.0.0` with vLLM `0.4.2` now available under `stable` tags
+Update 1.0.0 is now available, use the image tag `runpod/worker-vllm:stable-cuda12.1.0` or `runpod/worker-vllm:stable-cuda11.8.0`.
 
-**Main Changes:**
-- vLLM was updated from version `0.3.3` to `0.4.2`, adding compatibility for Llama 3 and other models, as well as increasing performance.
-
-We will soon be adding more features from the updates, such as multi-LoRA, multi-modality, and more.
+### 3. OpenAI-Compatible [Embedding Worker](https://github.com/runpod-workers/worker-infinity-embedding) Released
+Deploy your own OpenAI-compatible Serverless Endpoint on RunPod with multiple embedding models and fast inference for RAG and more! 
 
 
-### 3. Caching Accross RunPod Machines
+
+### 4. Caching Accross RunPod Machines
 Worker vLLM is now cached on all RunPod machines, resulting in near-instant deployment! Previously, downloading and extracting the image took 3-5 minutes on average.
 
 
